@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const container=document.getElementByClassName("container");
+const container=document.getElementsByClassName("container");
 const colors = ["#e74c3c", "#8e44ad", "#3498db", "#2ecc71", "#f1c40f", "#e67e22", "#1abc9c"];
 for(let i=0;i<=800;i++){
 	const boxes=document.createElement("div");
